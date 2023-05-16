@@ -15,11 +15,6 @@ body {
   width: 1200px;
 }
 
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .logo-fonts {
   font-family: 'Raleway';
   font-style: normal;
@@ -43,10 +38,7 @@ body {
 .nav-menu:hover {
   color: var(--blue-sky);
 }
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
+
 .nav-fonts {
   font-weight: 500;
   font-size: 14px;
