@@ -1,0 +1,162 @@
+:root {
+  --blue-sky: #2196f3;
+  --main-theme: #2f303a;
+  --snow: #ffffff;
+  --nearly-black: #212121;
+  --gray: #757575;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #fff;
+}
+
+.logo-fonts {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+}
+
+.logo-color {
+  color: var(--blue-sky);
+}
+
+.logo-color-footer {
+  color: var(--snow);
+}
+
+.nav-menu {
+  color: #212121;
+}
+.nav-menu:focus,
+.nav-menu:hover {
+  color: var(--blue-sky);
+}
+
+.nav-fonts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+}
+
+.footer-styles {
+  background: var(--main-theme);
+}
+
+.section-one {
+  background: var(--main-theme);
+}
+
+.section-team {
+  background: #f5f4fa;
+}
+
+a {
+  text-decoration: none;
+}
+
+.list-type {
+  list-style-type: none;
+}
+
+.nav-contacts {
+  color: var(--gray);
+  text-decoration: none;
+}
+.nav-contacts:hover,
+.nav-contacts:focus {
+  color: var(--blue-sky);
+}
+
+.h1-studio {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  color: var(--snow);
+}
+
+.btn-h1-main {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--snow);
+  background-color: var(--blue-sky);
+  cursor: pointer;
+}
+.h2-studio {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--nearly-black);
+}
+.p-h2-studio {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--nearly-black);
+}
+.h3-studio {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  color: var(--nearly-black);
+}
+.p-h3-studio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  color: var(--nearly-black);
+}
+.p-h3-studio-second {
+  font-size: 16px;
+  line-height: 1.18;
+  color: var(--nearly-black);
+}
+
+.btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border-style: none;
+  border: 4px;
+}
+
+.btn:hover,
+.btn:focus {
+  color: var(--snow);
+  background-color: var(--blue-sky);
+  cursor: pointer;
+}
+
+.h4-portfolio {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--nearly-black);
+}
+
+.p-h4-portfolio {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--gray);
+}
+
+.adress {
+  color: var(--snow);
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.adress-two {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.adress-two:hover,
+.adress-two:focus {
+  color: var(--blue-sky);
+}
