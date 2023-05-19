@@ -17,7 +17,8 @@ body {
 }
 
 .section {
-  padding-block: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .flex-container {
@@ -239,17 +240,49 @@ a {
   cursor: pointer;
 }
 
+.portfolio-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  gap: 30px;
+}
+
+.portfolio-list-style {
+  flex-basis: calc((100% - 60px) / 3);
+  border: 1px solid #eeeeee;
+}
+
+h4 {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
 .h4-portfolio {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  text-align: left;
   color: var(--nearly-black);
+  margin-top: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+  
 }
 
 .p-h4-portfolio {
   font-size: 16px;
   line-height: 1.87;
-  color: var(--gray);
+  text-align: left;
+margin-top: 4px;
+ padding-left: 24px;
+padding-right: 24px;
+padding-bottom: 20px
+color: var(--gray);
 }
 
 .logo-fonts-footer {
