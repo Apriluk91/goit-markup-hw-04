@@ -24,7 +24,9 @@ body {
 .flex-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  border-bottom: 1px solid;
+  border-bottom-color: #ececec;
 }
 
 .flex-logo {
@@ -87,6 +89,9 @@ body {
 
 .footer-styles {
   background: var(--main-theme);
+  padding-top: 60px;
+  padding-left: 15px;
+  padding-bottom: 60px;
 }
 
 .section-one {
@@ -238,16 +243,27 @@ a {
   color: var(--gray);
 }
 
+.logo-fonts-footer {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+  margin-bottom: 20px;
+}
+
 .adress {
   color: var(--snow);
   font-size: 14px;
   line-height: 1.71;
+  margin-bottom: 9px;
 }
 
 .adress-two {
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
   line-height: 1.71;
+  margin-bottom: 9px;
 }
 
 .adress-two:hover,
