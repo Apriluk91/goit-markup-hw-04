@@ -11,13 +11,14 @@
     <link href="css/modern-normalize.css" rel="stylesheet" />
     <link href="css/styles.css" rel="stylesheet" />
   </head>
-  <body>
-    <header>
-      <div class="container">
+  <body class="container">
+    <header class="flex-container">
+      <div class="flex-logo">
         <p class="logo-fonts"><span class="logo-color">Web</span>Studio</p>
+      </div>
         <nav>
           <menu>
-            <ul class="list-type">
+            <ul class="flex-nav">
               <li>
                 <a class="nav-menu nav-fonts" href="index.html">Agencja</a>
               </li>
@@ -27,27 +28,27 @@
                 >
               </li>
               <li><a class="nav-menu nav-fonts" href="/">Kontakt</a></li>
-            </ul></menu
-          >
+            </ul>
+          </menu>
         </nav>
+      </div>
+      <div class="flex-adress">
         <a class="nav-contacts nav-fonts" href="mailto:info@devstudio.com"
-          >info@devstudio.com</a
-        >
-        <a class="nav-contacts nav-fonts" href="tel:+48111111111"
-          >+48 111 111 111</a
-        >
+          >info@devstudio.com</a>
+        <a class="nav-contacts nav-fonts" href="tel:+48111111111">+48 111 111 111</a>
       </div>
     </header>
-    <main>
+    <main class="container">
       <section class="section section-one">
-        <div class="container">
-          <h1 class="h1-studio">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-          <button class="btn-h1-main" type="button">Zamów usługę</button>
-        </div>
+        <h1 class="h1-studio">
+          EFEKTYWNE ROZWIĄZANIA <br />
+          DLA WASZEGO BIZNESU
+        </h1>
+        <button class="btn-h1-main" type="button">Zamów usługę</button>
       </section>
       <section class="section">
-        <div class="container">
-          <ul class="list-type">
+        <div>
+          <ul class="flex-lorem-list">
             <li>
               <h2 class="h2-studio">LOREM IPSUM</h2>
               <p class="p-h2-studio">
@@ -80,96 +81,87 @@
         </div>
       </section>
       <section class="section">
-        <div class="container">
-          <h3 class="h3-studio">Czym się zajmujemy</h3>
-          <ul class="list-type">
-            <li>
-              <img
-                src="images/tablet.jpg"
-                alt="Tworzenie stron internetowych"
-                width="370"
-                height="294"
-              />
-            </li>
-            <li>
-              <img
-                src="images/phones.jpg"
-                alt="Tworzenie aplikacji mobilnych"
-                width="370"
-                height="294"
-              />
-            </li>
-            <li>
-              <img
-                src="images/graphic.jpg"
-                alt="Tworzenie grafik"
-                width="370"
-                height="294"
-              />
-            </li>
-          </ul>
-        </div>
+        <h3 class="h3-studio">Czym się zajmujemy</h3>
+         <div>
+          <ul class="czym-list">
+          <li>
+            <img
+              src="images/tablet.jpg"
+              alt="Tworzenie stron internetowych"
+              width="370"
+              height="294"
+            />
+          </li>
+          <li>
+            <img
+              src="images/phones.jpg"
+              alt="Tworzenie aplikacji mobilnych"
+              width="370"
+              height="294"
+            />
+          </li>
+          <li>
+            <img
+              src="images/graphic.jpg"
+              alt="Tworzenie grafik"
+              width="370"
+              height="294"
+            />
+          </li>
+        </ul>
+      </div>
       </section>
       <section class="section section-team">
-        <div class="container">
-          <h3 class="h3-studio">Nasz zespół</h3>
-          <ul class="list-type">
-            <li>
-              <img
-                src="images/laptop.jpg"
-                alt="Facet w brązowej koszuli"
-                width="270"
-                height="260"
-              />
-              <p class="p-h3-studio">John Doe</p>
-              <p class="p-h3-studio-second">Product Designer</p>
-            </li>
-            <li>
-              <img
-                src="images/blonde.jpg"
-                alt="Blondynka"
-                width="270"
-                height="260"
-              />
-              <p class="p-h3-studio">John Doe</p>
-              <p class="p-h3-studio-second">Frontend Developer</p>
-            </li>
-            <li>
-              <img
-                src="images/blueman.jpg"
-                alt="Facet w niebieskiej koszuli"
-                width="270"
-                height="260"
-              />
-              <p class="p-h3-studio">John Doe</p>
-              <p class="p-h3-studio-second">Marketing</p>
-            </li>
-            <li>
-              <img
-                src="images/blackman.jpg"
-                alt="Facet w czarnej koszulce"
-                width="270"
-                height="260"
-              />
-              <p class="p-h3-studio">John Doe</p>
-              <p class="p-h3-studio-second">UI Designer</p>
-            </li>
-          </ul>
-        </div>
+        <h3 class="h3-studio">Nasz zespół</h3>
+        <ul class="team-list">
+          <li class="team-list-flex">
+            <img
+              src="images/laptop.jpg"
+              alt="Facet w brązowej koszuli"
+              width="270"
+              height="260"
+            />
+            <figcaption class="p-h3-studio">JohnDoe<br><br><span class="p-h3-studio-second">Product Designer</span></figcaption>
+            
+          </li>
+          <li class="team-list-flex">
+            <img
+              src="images/blonde.jpg"
+              alt="Blondynka"
+              width="270"
+              height="260"
+            />
+            <figcaption class="p-h3-studio">JohnDoe<br><br><span class="p-h3-studio-second">Product Designer</span></figcaption>
+          </li>
+          <li class="team-list-flex">
+            <img
+              src="images/blueman.jpg"
+              alt="Facet w niebieskiej koszuli"
+              width="270"
+              height="260"
+            />
+           <figcaption class="p-h3-studio">JohnDoe<br><br><span class="p-h3-studio-second">Product Designer</span></figcaption>
+          </li>
+          <li class="team-list-flex">
+            <img
+              src="images/blackman.jpg"
+              alt="Facet w czarnej koszulce"
+              width="270"
+              height="260"
+            />
+           <figcaption class="p-h3-studio">JohnDoe<br><br><span class="p-h3-studio-second">Product Designer</span></figcaption>
+          </li class="team-list-flex">
+        </ul>
       </section>
     </main>
-    <footer class="footer-styles">
-      <div class="container">
-        <p class="logo-fonts">
-          <span class="logo-color">Web</span
-          ><span class="logo-color-footer">Studio</span>
-        </p>
-        <address class="adress">m. Warszawa, Aleje Jerozolimskie 21</address>
-        <a class="adress-two" href="mailto:info@example.com"
-          >info@example.com</a
-        >
-        <a class="adress-two" href="tel:+48111111111">+48 111 111 111</a>
-      </div>
+    <footer class="container footer-styles">
+      <p class="logo-fonts">
+        <span class="logo-color">Web</span
+        ><span class="logo-color-footer">Studio</span>
+      </p>
+      <address class="adress">m. Warszawa, Aleje Jerozolimskie 21</address>
+      <a class="adress-two" href="mailto:info@example.com">info@example.com</a>
+      <a class="adress-two" href="tel:+48111111111">+48 111 111 111</a>
     </footer>
   </body>
 </html>

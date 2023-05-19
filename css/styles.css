@@ -13,6 +13,45 @@ body {
 
 .container {
   width: 1200px;
+  margin-inline: auto;
+  max-width: 100%;
+}
+
+.section {
+  padding-block: 94px;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-logo {
+  display: flex;
+  flex-basis: 145px;
+  justify-content: flex-start;
+  max-width: 145px;
+  margin-left: 0px;
+}
+
+.flex-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 46px;
+  list-style-type: none;
+  max-width: 245px;
+  margin-left: 47px;
+  margin-right: 371px;
+}
+
+.flex-adress {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  margin-right: 0px;
 }
 
 .logo-fonts {
@@ -33,6 +72,8 @@ body {
 
 .nav-menu {
   color: #212121;
+  display: flex;
+  gap: 46px;
 }
 .nav-menu:focus,
 .nav-menu:hover {
@@ -49,24 +90,39 @@ body {
   background: var(--main-theme);
 }
 
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 .section-one {
   background: var(--main-theme);
 }
 
 .section-team {
   background: #f5f4fa;
+  padding: 0px;
 }
 
 a {
   text-decoration: none;
 }
 
-.list-type {
+.flex-lorem-list {
   list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.czym-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 30px;
+}
+
+.team-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 30px;
 }
 
 .nav-contacts {
@@ -83,6 +139,11 @@ a {
   font-size: 44px;
   line-height: 1.36;
   color: var(--snow);
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-top: 106px;
+  margin-bottom: 30px;
 }
 
 .btn-h1-main {
@@ -92,6 +153,12 @@ a {
   color: var(--snow);
   background-color: var(--blue-sky);
   cursor: pointer;
+  width: 200px;
+  height: 50px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  margin-bottom: 106px;
+  margin-inline: 500px;
 }
 .h2-studio {
   font-weight: 700;
@@ -109,17 +176,35 @@ a {
   font-size: 36px;
   line-height: 1.16;
   color: var(--nearly-black);
+  text-align: center;
+  padding-top: 94px;
+  margin-bottom: 50px;
+}
+
+.team-list-flex {
+  border-radius: 0px 0px 4px 4px;
+  background: var(--snow);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  padding-bottom: 30px;
+  margin-bottom: 94px;
 }
 .p-h3-studio {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   color: var(--nearly-black);
+  text-align: center;
+  padding-top: 30px;
 }
+
 .p-h3-studio-second {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   color: var(--nearly-black);
+  text-align: center;
+  padding-bottom: 30px;
 }
 
 .btn {
