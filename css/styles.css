@@ -212,6 +212,14 @@ a {
   padding-bottom: 30px;
 }
 
+.button-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  gap: 8px;
+  margin-bottom: 50px;
+}
 .btn {
   font-weight: 500;
   font-size: 16px;
@@ -219,7 +227,9 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
   border-style: none;
-  border: 4px;
+  padding: 6px 22px;
+  background: #f5f4fa;
+  border-radius: 4px;
 }
 
 .btn:hover,
