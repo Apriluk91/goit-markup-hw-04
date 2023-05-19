@@ -121,8 +121,9 @@ a {
 .team-list {
   list-style-type: none;
   display: flex;
-  flex-wrap: nowrap;
+  justify-content: center;
   gap: 30px;
+  padding: 0;
 }
 
 .nav-contacts {
@@ -179,6 +180,7 @@ a {
   text-align: center;
   padding-top: 94px;
   margin-bottom: 50px;
+  margin-top: 0px;
 }
 
 .team-list-flex {
