@@ -231,7 +231,9 @@ a {
   justify-content: center;
   list-style: none;
   gap: 8px;
-  margin-bottom: 50px;
+  padding-left: 0px;
+  margin-block-start: 0px;
+  margin-block-end: 50px;
 }
 .btn {
   font-weight: 500;
