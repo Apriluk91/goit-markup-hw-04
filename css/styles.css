@@ -125,7 +125,7 @@ a {
   justify-content: space-between;
   gap: 30px;
   margin: 0px;
-  padding-left: 0;
+  padding-inline-start: 0px;
 }
 
 .czym-list {
