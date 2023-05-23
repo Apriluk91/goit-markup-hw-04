@@ -123,11 +123,17 @@ menu {
 }
 
 .background-image {
-  background-image: url(/images/main-img.jpg);
+  background-image: url(/images/main-photo.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 100% 35%;
+  min-width: none;
+  min-height: 800px;
 }
 
+.header-shade {
+  background-color: rgba(47, 48, 58, 0.4);
+}
 .section-team {
   background: #f5f4fa;
 }
