@@ -120,9 +120,7 @@ menu {
 
 .section-one {
   background: var(--main-theme);
-}
-
-.background-image {
+  background-color: rgba(47, 48, 58, 0.4);
   background-image: url(/images/main-photo.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -131,9 +129,6 @@ menu {
   min-height: 600px;
 }
 
-.header-shade {
-  background-color: rgba(47, 48, 58, 0.4);
-}
 .section-team {
   background: #f5f4fa;
 }
