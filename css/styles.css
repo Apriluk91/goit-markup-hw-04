@@ -79,6 +79,7 @@ a {
 }
 
 .flex-adress {
+  list-style: none;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -113,10 +114,26 @@ a {
   color: var(--blue-sky);
 }
 
-.nav-fonts {
+.nav-contacts {
+  color: var(--gray);
+  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.17;
+}
+
+.icon-contacts {
+  fill: currentColor;
+  margin-right: 10px;
+}
+
+.nav-contacts:hover,
+.nav-contacts:focus {
+  color: var(--blue-sky);
+}
+
+.nav-menu-contacts {
+  margin-right: 10px;
 }
 
 .footer-styles {
@@ -169,15 +186,6 @@ a {
   justify-content: center;
   gap: 30px;
   padding: 0;
-}
-
-.nav-contacts {
-  color: var(--gray);
-  text-decoration: none;
-}
-.nav-contacts:hover,
-.nav-contacts:focus {
-  color: var(--blue-sky);
 }
 
 .h1-studio {
