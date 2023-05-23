@@ -126,9 +126,9 @@ menu {
   background-image: url(/images/main-photo.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 100% 35%;
-  min-width: none;
-  min-height: 800px;
+  background-position: center;
+  min-width: 1600px;
+  min-height: 600px;
 }
 
 .header-shade {
