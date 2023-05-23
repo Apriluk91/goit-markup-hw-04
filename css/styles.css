@@ -130,7 +130,7 @@ a {
 .section-one {
   background: var(--main-theme);
   background-color: rgba(47, 48, 58, 0.4);
-  background-image: url(/images/sectionone.jpg);
+  background-image: url(../images/sectionone.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 100% 35%;
