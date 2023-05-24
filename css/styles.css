@@ -21,6 +21,11 @@ header {
   border-bottom-color: #ececec;
 }
 
+footer {
+  background-color: var(--main-theme);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 menu {
   margin-block-start: 0px;
   margin-block-end: 0px;
@@ -138,14 +143,6 @@ ul {
 
 .nav-menu-contacts {
   margin-right: 10px;
-}
-
-.footer-styles {
-  background: var(--main-theme);
-  padding-top: 60px;
-  padding-left: 15px;
-  padding-bottom: 60px;
-  margin-top: 0;
 }
 
 .section-one {
@@ -441,6 +438,15 @@ h4 {
   color: var(--gray);
 }
 
+/*--footer styles--*/
+
+.footer-flex {
+  display:flex;
+  align-items: center;
+  justify-content: flex-start;
+ 
+}
+
 .logo-fonts-footer {
   font-family: 'Raleway';
   font-style: normal;
@@ -467,4 +473,27 @@ h4 {
 .adress-two:hover,
 .adress-two:focus {
   color: var(--blue-sky);
+}
+
+.footer-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--snow);
+}
+
+.footer-box {
+  width: 206px;
+  height: 44px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-list {
+  margin-right: 10px;
+}
+
+.footer-list:last-child {
+  margin-right: 0px;
 }
