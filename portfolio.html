@@ -30,16 +30,24 @@
               <li><a class="nav-menu nav-fonts" href="/">Kontakt</a></li>
             </ul>
           </menu>
-        </nav>
-        <div class="flex-adress">
-          <a class="nav-contacts nav-fonts" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-          <a class="nav-contacts nav-fonts" href="tel:+48111111111"
-            >+48 111 111 111</a
-          >
+          </nav>
+          <ul class="flex-adress">
+            <li>
+              <a class="nav-contacts" href="mailto:info@devstudio.com">
+                <svg class="icon-contacts" width="16" height="12">
+                  <use href="./images/icons.svg#icon-envelope"></use></svg>
+                info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="nav-contacts" href="tel:+48111111111">
+                <svg class="icon-contacts" width="16" height="12">
+                  <use href="./images/icons.svg#icon-smartphone"></use></svg>
+                +48 111 111 111</a
+              >
+            </li>
+          </ul>
         </div>
-      </div>
     </header>
     <main>
       <section class="section section-padding-bottom">
@@ -156,16 +164,47 @@
         </div>
       </section>
     </main>
-    <footer class="footer-styles">
-      <div class="container">
-        <p class="logo-fonts-footer">
-          <span class="logo-color">Web</span
-          ><span class="logo-color-footer">Studio</span>
-        </p>
-        <address class="adress">m. Warszawa, Aleje Jerozolimskie 21</address>
-        <a class="adress-two" href="mailto:info@example.com">info@example.com</a
-        ><br /><a class="adress-two" href="tel:+48111111111">+48 111 111 111</a>
-      </div>
+    <footer>
+      <div class="container">           >
+        <ul class="footer-flex">
+          <li>
+            <p class="logo-fonts-footer">
+             <span class="logo-color">Web</span><span class="logo-color-footer">Studio</span>
+            </p>
+            <address class="adress">m. Warszawa, Aleje Jerozolimskie 21</address>
+              <a class="adress-two" href="mailto:info@example.com">info@example.com</a> 
+              <br/>
+              <a class="adress-two" href="tel:+48111111111">+48 111 111 111</a>
+          </li>
+          <li class="footer-layout">             
+             <h3 class="footer-text">DOŁĄCZ DO NAS</h3>
+             <ul class="footer-box">
+               <li class="footer-list">
+                 <a class="footer-link" href="/">
+                  <svg class="svg-footer" width="20" height="20">
+                  <use href="./images/icons.svg#icon-instagram-2"></use>
+                  </svg>
+                  </a>
+              </li>
+              <li class="footer-list">
+                  <a class="footer-link" href="/"><svg class="svg-footer" width="20" height="20">
+                  <use href="./images/icons.svg#icon-twitter-1"></use>
+                  </svg></a>
+              </li>
+              <li class="footer-list">
+                  <a class="footer-link"><svg class="svg-footer" width="20" height="20">
+                  <use href="./images/icons.svg#icon-facebook-1"></use>
+                  </svg></a>
+              </li>
+              <li class="footer-list">
+                  <a class="footer-link"><svg class="svg-footer" width="20" height="20">
+                  <use href="./images/icons.svg#icon-linkedin-1"></use>
+                  </svg></a>
+            </li>
+            </ul>
+        </li>
+      </ul>
+    </div>
     </footer>
   </body>
 </html>
