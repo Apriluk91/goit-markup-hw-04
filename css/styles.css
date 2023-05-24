@@ -338,6 +338,31 @@ ul {
   fill: var(--snow);
 }
 
+.clients-list {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.clients-box {
+  width: 170px;
+  height: 92px;
+  border: #AFB1B8 solid; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clients-link {
+  fill:#afb1b8;
+}
+
+.clients-box:hover,
+.clients-box:focus {
+  border-color: var(--blue-sky);
+  cursor: pointer;
+  fill: var(--blue-sky);
+}
+
 .button-list {
   display: flex;
   align-items: center;
