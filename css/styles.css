@@ -24,6 +24,17 @@ header {
 footer {
   background-color: var(--main-theme);
 }
+
+h4 {
+  margin: 0;
+  margin-block-start: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
 menu {
   margin-block-start: 0px;
   margin-block-end: 0px;
@@ -249,14 +260,14 @@ ul {
 }
 
 .team-list {
-  border-radius: 0px 0px 4px 4px;
   background: var(--snow);
+  border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  0px 2px 1px rgba(0, 0, 0, 0.2);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .team-figcaption {
-  padding-top: 30px;
   padding-bottom: 30px;
   align-items: center;
 }
@@ -359,6 +370,8 @@ ul {
   fill: var(--blue-sky);
 }
 
+/*-- portfolio styles -------------------*/
+
 .button-list {
   display: flex;
   align-items: center;
@@ -386,6 +399,9 @@ ul {
   color: var(--snow);
   background-color: var(--blue-sky);
   cursor: pointer;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+		0px 2px 2px rgba(0, 0, 0, 0.12);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .portfolio-list {
@@ -397,18 +413,20 @@ ul {
   gap: 30px;
 }
 
-.portfolio-list-style {
-  border: 1px solid #eeeeee;
+.portfolio-list-style:hover {
+  cursor: pointer;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-h4 {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+.portfolio-figcaption {
+  margin-top: 0px;
+  padding-top: 20px;
+  border-left: 1px solid #eeeeee;
+border-right: 1px solid #eeeeee;
+border-bottom: 1px solid #eeeeee;
 }
+
+
 
 .h4-portfolio {
   font-weight: 700;
@@ -416,7 +434,6 @@ h4 {
   line-height: 2;
   text-align: left;
   color: var(--nearly-black);
-  margin-top: 20px;
   padding-left: 24px;
   padding-right: 24px;
 }
@@ -424,7 +441,6 @@ h4 {
 .p-h4-portfolio {
   font-size: 16px;
   line-height: 1.87;
-  text-align: left;
   margin-top: 4px;
   padding-left: 24px;
   padding-right: 24px;
@@ -432,7 +448,7 @@ h4 {
   color: var(--gray);
 }
 
-/*--footer styles--*/
+/*--footer styles -------------------*/
 
 .footer-flex {
   display: flex;
