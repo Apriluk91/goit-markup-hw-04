@@ -49,6 +49,10 @@ ul {
   list-style-type: none;
 }
 
+img {
+  display: block;
+}
+
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -527,7 +531,12 @@ justify-content: center;
 }
 
 .footer-list:hover,
-footer-list:focus {
+.footer-list:focus {
   cursor: pointer;
   background-color:var(--blue-sky);
 }
+
+
+
+
+/*-- testy --*/
